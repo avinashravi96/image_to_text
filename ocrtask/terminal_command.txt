@@ -1,0 +1,4 @@
+# Output to terminal
+tesseract image.jpg stdout -l eng --oem 1 --psm 3
+# Output to output.txt 
+tesseract image.jpg output -l eng --oem 1 --psm 3
